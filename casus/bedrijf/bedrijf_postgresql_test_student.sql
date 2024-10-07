@@ -157,21 +157,6 @@ SELECT * FROM (VALUES
 ) answer (code, begindatum, lengte, naam);
 
 DROP VIEW IF EXISTS s3_2_test; CREATE OR REPLACE VIEW s3_2_test AS
--- all names
---                                       "ADAMS"	"SMIT"
--- "ADAMS"	"SPIJKER"
--- "ALDERS"	"SMIT"
--- "ALDERS"	"SPIJKER"
--- "BLAAK"	"SMIT"
--- "BLAAK"	"SPIJKER"
--- "DE KONING"	"SMIT"
--- "DE KONING"	"SPIJKER"
--- "MOLENAAR"	"SMIT"
--- "MOLENAAR"	"SPIJKER"
--- "SCHOTTEN"	"SMIT"
--- "SCHOTTEN"	"SPIJKER"
--- "SPIJKER"	"SMIT"
--- "SPIJKER"	"SPIJKER"
 SELECT * FROM (VALUES
     ('ALDERS'::VARCHAR(12), 'SPIJKER'::VARCHAR(12)),
     ('ALDERS', 'SMIT'),

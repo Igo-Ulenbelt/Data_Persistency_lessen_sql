@@ -25,7 +25,6 @@
 -- Lever je werk pas in op Canvas als alle tests slagen.
 -- ------------------------------------------------------------------------
 
-
 -- S4.1.
 -- Geef nummer, functie en geboortedatum van alle medewerkers die vóór 1980
 -- geboren zijn, en trainer of verkoper zijn.

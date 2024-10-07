@@ -25,7 +25,6 @@
 -- Lever je werk pas in op Canvas als alle tests slagen.
 -- ------------------------------------------------------------------------
 
-
 -- S3.1.
 -- Produceer een overzicht van alle cursusuitvoeringen; geef de
 -- code, de begindatum, de lengte en de naam van de docent.
